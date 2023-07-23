@@ -9,7 +9,7 @@ import bin from '/bin.webp'
 import logo from '/logo-gold.svg'
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="De Leon's Power Wash & Bin Cleaning">
 	<main class="">
 		<section class="bg-black/90 px-5 py-28">
 			<div class="max-w-5xl mx-auto flex flex-col justify-center space-y-10">
@@ -20,21 +20,21 @@ import logo from '/logo-gold.svg'
 	
 		</section>
 
-		<section class="max-w-4xl mx-auto flex flex-row py-10 px-5">
+		<section class="max-w-4xl mx-auto flex flex-row py-10 px-5" title="About us">
 			<div class="space-y-2">
 				<h1 class="text-4xl font-bold max-w-2xl mx-auto text-black/90">Our Story</h1>
 				<p class="text-lg max-w-2xl mx-auto">De Leon's Power Wash and Bin Cleaning is a locally operated, family-owned small business dedicated to keeping El Paso clean. We are committed to delivering exceptional results that exceed your expectations. Using advanced equipment and eco-friendly solutions, our team efficiently handles power washing and bin cleaning projects, ensuring surfaces are spotless and bins are sanitized. As a local business, we understand the unique needs of our community and take pride in contributing to the beautification of El Paso. Choose De Leon's power wash for personalized service, reliability, and a cleaner city. Contact us today for quality cleaning services with a personal touch.</p>
 				<section class="md:flex md:space-x-3">
 					<div class="flex">
-						<img src={local} alt="" class="w-20">
+						<img src={local} alt="city" class="w-20">
 						<h3 class="py-8 font-bold">locally owned & operated</h3>
 					</div>
 					<div class="flex">
-						<img src={houseIcon} alt="" class="w-20">
+						<img src={houseIcon} alt="house" class="w-20">
 						<h3 class="py-8 font-bold">Family owned</h3>
 					</div>	
 					<div class="flex">
-						<img src={thumbsUp} alt="" class="w-20">
+						<img src={thumbsUp} alt="thumbs up" class="w-20">
 						<h3 class="py-8 font-bold">Fast & Reliable service</h3>
 					</div>					
 				</section>		
@@ -43,11 +43,11 @@ import logo from '/logo-gold.svg'
 
 		<h1 class="text-center text-5xl text-black/90 pt-10 pb-20">We offer both residential and commercial cleaning!</h1>	
 
-		<section class="max-w-5xl mx-auto px-5 space-y-10 lg:space-y-20 lg:px-20" id="services">
+		<section class="max-w-5xl mx-auto px-5 space-y-10 lg:space-y-20 lg:px-20" id="services" title="services">
 
 			<div class="max-w-5xl mx-auto flex flex-col space-y-2 mb-7 lg:space-y-0 lg:flex-row">
 				<div class="flex justify-center lg:w-1/2">
-					<img src={house} alt="" class="">
+					<img src={house} alt="home" class="">
 				</div>
 				<div class="space-y-2 lg:w-1/2 lg:px-5">
 					<h1 class="text-left text-4xl text-yellow-500">Residential Services</h1>					
@@ -76,7 +76,7 @@ import logo from '/logo-gold.svg'
 					</div>	
 
 					<div class="w-82 lg:w-[30rem] p-10">
-						<img src={bin} alt="" class="">
+						<img src={bin} alt="trash bin" class="">
 					</div>
 
 					<div class="flex flex-col max-w-4xl mx-auto space-y-10 md:space-y-5 md:justify-between">
@@ -91,7 +91,7 @@ import logo from '/logo-gold.svg'
 			<h1 class="text-5xl text-center pt-20">Hey restaurant owners, did you know dumpster areas are the dirtiest areas of a restaurant property?</h1>	
 			<h3 class="text-center text-6xl text-yellow-500">We have a solution for that!</h3>
 			<div class="flex flex-col py-10 lg:flex-row-reverse lg:py-0">				
-					<img src={dumpster} alt="" class="w-80 m-auto">	
+					<img src={dumpster} alt="commercial dumpster" class="w-80 m-auto">	
 					<div class="py-5 space-y-2 lg:py-40">
 						<h1 class="text-center text-4xl text-yellow-500 lg:text-left">Commercial Solutions</h1>								
 						<p class="text-lg text-center lg:text-left">Ensure your business makes a lasting impression with our professional powerwashing services, designed to keep the exterior looking clean and professional. Trust us to maintain a pristine exterior that leaves a positive and memorable impact on your clients and customers.</p>								
@@ -100,11 +100,11 @@ import logo from '/logo-gold.svg'
 			</div>
 		</section>
 
-		<section class="bg-black/90 py-10 text-center" id="contact">
+		<section class="bg-black/90 py-10 text-center" id="contact" title="contact us">
 			<div class="max-w-5xl mx-auto  space-y-5">
 				<h1 class="text-white text-5xl">Get in touch</h1>
 				<div class="flex justify-center">
-					<img src={logo} alt="" class="w-80">
+					<img src={logo} alt="logo" class="w-80">
 				</div>
 				<p class="text-white text-3xl">Call, text, or e-mail to schedule an appointment.</p>				
 				<div class="max-w-3xl mx-auto flex flex-col space-y-5">
@@ -118,19 +118,3 @@ import logo from '/logo-gold.svg'
 
 	</main>
 </Layout>
-
-<!-- <div class="max-w-md">
-
-	<p>Keep your home looking new. We offer professional Residential power washing services. These services include:</p>
-
-	<ul>
-		<li>Driveways</li>
-		<li>Trash and Recycle bin cleaning</li>
-		<li>Porches</li>
-	</ul>
-</div>
-<div class="p-3">
-	<img src={house} alt="" class="rounded-lg">
-</div> -->
-
-<!-- Our expert team utilizes state-of-the-art equipment to remove dirt, grime, and oil stains, revitalizing your driveway's appearance and preserving its new-like charm for years to come. Experience the transformative power of our services and keep your home looking fresh, clean, and beautifully maintained. -->

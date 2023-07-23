@@ -9,14 +9,14 @@ export default function Header() {
     <header className="bg-black h-screen fixed w-full lg:bg-black/90 lg:h-auto lg:static">
         <div className="max-w-5xl mx-auto text-xl flex flex-col justify-between px-5 lg:px-0 lg:flex-row">
             <div className="flex justify-between">
-                <img src={logo} alt="" className="w-20" />           
-                <img src={closeMenu} onClick={closeNavHandler} alt="" className="w-8 lg:hidden"/>                         
+                <img src={logo} alt="logo" className="w-20" />           
+                <img src={closeMenu} onClick={closeNavHandler} alt="close menu" className="w-8 lg:hidden"/>                         
             </div>
            
             <nav className="text-white flex flex-col text-center space-y-10 py-5 lg:flex-row lg:space-y-0 lg:space-x-5">
-                <a href="/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
-                <a href="#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
-                <a href="#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
+                <a href="/site/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
+                <a href="/site/#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
+                <a href="/site/#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
             </nav>  
         </div>
     </header>
@@ -25,14 +25,14 @@ export default function Header() {
     <header className="bg-black/90 ">
         <div className="max-w-5xl mx-auto text-xl flex flex-col justify-between px-5 lg:px-0 lg:flex-row">
             <div className="flex justify-between">
-                <img src={logo} alt="" className="w-20" />           
-                <img src={hamburgerMenu} alt="" onClick={openNavHandler} className="w-8 lg:hidden"/>                         
+                <img src={logo} alt="logo" className="w-20" />           
+                <img src={hamburgerMenu} alt="menu icon" onClick={openNavHandler} className="w-8 lg:hidden"/>                         
             </div>
            
             <nav className="text-white hidden py-5 lg:flex lg:space-y-0 lg:space-x-5">
-                <a href="/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
-                <a href="#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
-                <a href="#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
+                <a href="/site/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
+                <a href="/site/#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
+                <a href="/site/#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
             </nav>  
         </div>
     </header>
