@@ -14,9 +14,9 @@ export default function Header() {
             </div>
            
             <nav className="text-white flex flex-col text-center space-y-10 py-5 lg:flex-row lg:space-y-0 lg:space-x-5">
-                <a href="/site/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
-                <a href="/site/#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
-                <a href="/site/#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
+                <a href="/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
+                <a href="#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
+                <a href="#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
             </nav>  
         </div>
     </header>
@@ -30,9 +30,9 @@ export default function Header() {
             </div>
            
             <nav className="text-white hidden py-5 lg:flex lg:space-y-0 lg:space-x-5">
-                <a href="/site/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
-                <a href="/site/#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
-                <a href="/site/#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
+                <a href="/" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Home</a>      
+                <a href="#services" className="hover:underline hover:decoration-yellow-500 hover:decoration-2">Services</a>              
+                <a href="#contact" className="text-yellow-500 hover:underline hover:decoration-yellow-500 hover:decoration-2">Book Now</a>    
             </nav>  
         </div>
     </header>
